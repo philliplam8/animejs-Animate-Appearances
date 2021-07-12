@@ -1,0 +1,21 @@
+.col {
+  border: 5px solid;
+  background-color: #cdc0b4;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+}
+
+.cell {
+  position: relative;
+}
+
+#animate {
+  position: absolute;
+  z-index: 1;
+  background-color: red;
+  
+  border-radius: 100px;
+  right: -5px;
+  top: -5px;
+}
